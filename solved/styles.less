@@ -1,0 +1,242 @@
+.box-shadow (@x: 0, @y: 0, @blur: 1px, @alpha) {
+  @val: @x @y @blur rgba(0, 0, 0, @alpha);
+
+  box-shadow:         @val;
+  -webkit-box-shadow: @val;
+  -moz-box-shadow:    @val;
+}
+.box { @base: #f938ab;
+  color:        saturate(@base, 5%);
+  border-color: lighten(@base, 30%);
+  div { .box-shadow(0, 0, 5px, 0.4) }
+}
+
+body
+{
+	background-color: #f8f8f8;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 200%;
+	color: #404040;
+	
+	a
+	{
+		color:#f00;
+	}
+}
+
+#container
+{
+	.box-shadow(0, 0, 10px, 0.1);
+	background:#fff;
+	border:1px solid #ddd;
+	margin:100px auto 50px auto;
+	padding:20px;
+	width:920px;
+	
+	header
+	{
+		position:fixed;
+		top:0;
+		left:0;
+		text-align:center;
+		width:100%;
+		
+		h1
+		{
+			text-transform:uppercase;
+			.box-shadow(0, 0, 10px, 0.1);
+			background:#fff;
+			padding:10px;
+			margin:0 auto;
+			
+			span
+			{
+				border-left:1px solid #e8e8e8;
+				border-right:1px solid #e8e8e8;
+				color:#f90;
+				display:inline-block;
+				margin:0 5px;
+				padding:0 10px;
+				text-transform:lowercase;
+			}
+		}
+	}
+
+	#main
+	{
+		
+		*
+		{
+			word-wrap:break-word;
+		}
+		
+		iframe
+		{
+			display:none;
+		}
+		
+		h1
+		{
+			color:#369;
+		}
+		
+		h6
+		{
+			color:green;
+			text-decoration:underline;
+		}
+		
+		small
+		{
+			font-size:1em;
+		}
+		
+		sup
+		{
+			color:#900;
+		}
+		
+		sub
+		{
+			color:#e99;
+		}
+		
+		pre
+		{
+			.box;
+		}
+		
+		ul, ol
+		{
+			li:last-child
+			{
+				font-weight:bold;
+			}
+			
+			li:first-child
+			{
+				color:#9c9;
+			}
+		}
+		
+		dl
+		{
+			dt
+			{
+				font-weight:bold;
+			}
+			
+			dd
+			{
+				margin:5px 10px;
+			}
+		}
+		
+		#headings
+		{
+			h1
+			{
+				color:#999;
+			}
+			
+			*
+			{
+				display:inline-block;
+				margin-right:10px;
+			}
+		}
+		
+		hr
+		{
+			background:#e8e8e8;
+			border: 0;
+			height:1px;
+		}
+		
+		img
+		{
+			float:right;
+			padding:20px 0 20px 20px;
+			width:200px;
+		}
+		
+		fieldset
+		{
+			border:1px solid #e8e8e8;
+			
+			legend
+			{
+				font-weight:bold;
+				font-size:1.5em;
+			}
+			
+			label
+			{
+				font-weight:bold;
+			}
+			
+			input[type=text], input[type=password], textarea
+			{
+				border:1px solid #ccc;
+				width:500px;
+				padding:5px;
+			}
+			
+			textarea
+			{
+				height:200px;
+			}
+		}
+		
+		table
+		{
+			border-collapse:collapse;
+			width:100%;
+			
+			thead
+			{
+				tr
+				{
+					th
+					{
+						border:1px solid #e8e8e8;
+						background:lighten(#f90, 20%);
+						padding:5px;
+						text-align:left;
+					}
+				}
+			}
+			
+			tbody
+			{
+				tr
+				{
+					td
+					{
+						border:1px solid #e8e8e8;
+						padding:5px;
+						text-align:left;
+					}
+				}
+				
+				tr:nth-child(odd)
+				{
+					td
+					{
+						background:#f8f8f8;
+					}
+				}
+			}
+		}
+		
+		blockquote
+		{
+			border-left:2px solid #ccc;
+			margin:20px;
+			padding:0 5px;
+		}
+		
+	}
+}

@@ -1,0 +1,156 @@
+.box {
+  color: #fe33ac;
+  border-color: #fdcdea;
+}
+.box div {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+body {
+  background-color: #f8f8f8;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 200%;
+  color: #404040;
+}
+body a {
+  color: #f00;
+}
+#container {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  border: 1px solid #ddd;
+  margin: 100px auto 50px auto;
+  padding: 20px;
+  width: 920px;
+}
+#container header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: center;
+  width: 100%;
+}
+#container header h1 {
+  text-transform: uppercase;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  padding: 10px;
+  margin: 0 auto;
+}
+#container header h1 span {
+  border-left: 1px solid #e8e8e8;
+  border-right: 1px solid #e8e8e8;
+  color: #f90;
+  display: inline-block;
+  margin: 0 5px;
+  padding: 0 10px;
+  text-transform: lowercase;
+}
+#container #main * {
+  word-wrap: break-word;
+}
+#container #main iframe {
+  display: none;
+}
+#container #main h1 {
+  color: #369;
+}
+#container #main h6 {
+  color: green;
+  text-decoration: underline;
+}
+#container #main small {
+  font-size: 1em;
+}
+#container #main sup {
+  color: #900;
+}
+#container #main sub {
+  color: #e99;
+}
+#container #main pre {
+  color: #fe33ac;
+  border-color: #fdcdea;
+}
+#container #main pre div {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+#container #main ul li:last-child, #container #main ol li:last-child {
+  font-weight: bold;
+}
+#container #main ul li:first-child, #container #main ol li:first-child {
+  color: #9c9;
+}
+#container #main dl dt {
+  font-weight: bold;
+}
+#container #main dl dd {
+  margin: 5px 10px;
+}
+#container #main #headings h1 {
+  color: #999;
+}
+#container #main #headings * {
+  display: inline-block;
+  margin-right: 10px;
+}
+#container #main hr {
+  background: #e8e8e8;
+  border: 0;
+  height: 1px;
+}
+#container #main img {
+  float: right;
+  padding: 20px 0 20px 20px;
+  width: 200px;
+}
+#container #main fieldset {
+  border: 1px solid #e8e8e8;
+}
+#container #main fieldset legend {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+#container #main fieldset label {
+  font-weight: bold;
+}
+#container #main fieldset input[type=text], #container #main fieldset input[type=password], #container #main fieldset textarea {
+  border: 1px solid #ccc;
+  width: 500px;
+  padding: 5px;
+}
+#container #main fieldset textarea {
+  height: 200px;
+}
+#container #main table {
+  border-collapse: collapse;
+  width: 100%;
+}
+#container #main table thead tr th {
+  border: 1px solid #e8e8e8;
+  background: #ffc266;
+  padding: 5px;
+  text-align: left;
+}
+#container #main table tbody tr td {
+  border: 1px solid #e8e8e8;
+  padding: 5px;
+  text-align: left;
+}
+#container #main table tbody tr:nth-child(odd) td {
+  background: #f8f8f8;
+}
+#container #main blockquote {
+  border-left: 2px solid #ccc;
+  margin: 20px;
+  padding: 0 5px;
+}
