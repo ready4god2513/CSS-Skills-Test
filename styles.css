@@ -1,0 +1,134 @@
+body
+{
+	background:#f8f8f8;
+	margin:0;
+	padding:0;
+	color:#404040;
+	font-size:13px;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height:200%;
+}
+
+h1
+{
+	color:#369;
+}
+
+div#container
+{
+	background:#fff;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	margin:100px auto 50px auto;
+	padding:20px;
+	width: 910px;
+}
+
+div#container header
+{
+	background:#fff;
+	left:0;
+	position:fixed;
+	text-align:center;
+	top:0;
+	width:100%;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+div#container header h1
+{
+	color:#404040;
+	margin:0 auto;
+	padding:10px;
+	text-transform:uppercase;
+}
+
+div#container header h1 span
+{
+	border-right:1px solid #e8e8e8;
+	border-left:1px solid #e8e8e8;
+	color:rgb(255,153,0);
+	display:inline-block;
+	margin:0 5px;
+	padding:0 10px;
+	text-transform:lowercase;
+
+}
+
+div#main iframe 
+{
+	display: none;
+}
+
+div#main hr
+{
+	background: #E8E8E8;
+	border: 0;
+	height: 1px;
+}
+
+div#main #headings *
+{
+	display:inline-block;
+	margin: 15px 10px 15px 0;
+}
+
+div#main #headings h1
+{
+	color:#999;
+}
+
+div#main a
+{
+	color:red;
+	font-size:120%;
+}
+
+
+div#main #headings h6
+{
+	color: green;
+	text-decoration:underline;
+}
+
+div#main img
+{
+	float:right;
+	margin:20px 0 20px 20px;
+	width:220px;
+}
+
+div#main p a
+{
+	font-size:90%;
+}
+
+div#main dl dt
+{
+	font-weight:bold;
+}
+
+div#main ol li:first-child
+{
+	color:rgb(153,203,153);
+}
+
+div#main ol li:last-child 
+{
+	font-weight:bold;
+}
+
+div#main ul li:first-child
+{
+	color:rgb(153,203,153);
+}
+
+div#main ul li:last-child 
+{
+	font-weight:bold;
+}
+
+div#main fieldset legend
+{
+	font-size:150%;
+	font-weight:bold;
+}
