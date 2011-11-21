@@ -107,28 +107,39 @@ div#main dl dt
 	font-weight:bold;
 }
 
-div#main ol li:first-child
+div#main ol li:first-child, div#main ul li:first-child
 {
 	color:rgb(153,203,153);
 }
 
-div#main ol li:last-child 
+div#main ol li:last-child, div#main ul li:last-child 
 {
 	font-weight:bold;
 }
 
-div#main ul li:first-child
+div#main fieldset input#text_field:hover
 {
-	color:rgb(153,203,153);
+	display:none;
 }
 
-div#main ul li:last-child 
-{
-	font-weight:bold;
-}
-
-div#main fieldset legend
+legend
 {
 	font-size:150%;
 	font-weight:bold;
+}
+
+label
+{
+	font-weight:bold;
+}
+
+input[type=text], textarea , input[type=password]
+{
+	padding:5px;
+	width:500px;
+}
+
+textarea
+{
+	height: 200px;
 }
