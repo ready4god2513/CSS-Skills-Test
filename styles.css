@@ -117,9 +117,9 @@ div#main ol li:last-child, div#main ul li:last-child
 	font-weight:bold;
 }
 
-div#main fieldset input#text_field:hover
+fieldset
 {
-	display:none;
+	border:1px solid #e8e8e8;
 }
 
 legend
@@ -135,6 +135,7 @@ label
 
 input[type=text], textarea , input[type=password]
 {
+	border:1px solid #e8e8e8;
 	padding:5px;
 	width:500px;
 }
@@ -142,4 +143,55 @@ input[type=text], textarea , input[type=password]
 textarea
 {
 	height: 200px;
+}
+
+table 
+{
+	border-collapse: collapse;
+	width:100%;
+}
+
+table thead
+{
+	background:#FFC266;
+}
+
+th, td
+{
+	
+	border:1px solid #e8e8e8;
+	padding:5px;
+	text-align:left;
+}
+
+th
+{
+	border:1px solid #ff3;
+}
+
+table tbody tr:nth-child(odd) td
+{
+	background:#f8f8f8;
+}
+
+sup
+{
+	color:pink;
+}
+
+sub
+{
+	color:red;
+}
+
+pre
+{
+	color:pink;
+	word-wrap:break-word;
+}
+
+blockquote
+{
+	border-left:2px solid #e8e8e8;
+	padding-left:5px;
 }
